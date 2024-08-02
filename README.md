@@ -7,7 +7,7 @@ Readers often don't have time to read through entire articles, and reading only 
 In this project, we attempt to generate summaries of news articles by extracting important sentences from a news article. Our work was inspired by a research paper on Content selection in Deep Learning Models of summarization by Prof. Kathleen McKeown and Chris Kedzie:
 https://arxiv.org/pdf/1810.12343v2.pdf
 
-My analysis is of a smaller scale, so we went for a bidirectional LSTM model for this project. We used 23,000 articles to train the sentence embeddings and the model, 5,000 articles for validation and 5,000 articles for test. The Rough-1 score for our project is 0.351.
+My analysis is of a smaller scale, so we went for a bidirectional LSTM model for this project. We used 23,000 articles to train the sentence embeddings and the model, 5,000 articles for validation and 5,000 articles for test. The Rough-1 score for this project is 0.351.
 
 The following image shows the architecture of the project.
 
